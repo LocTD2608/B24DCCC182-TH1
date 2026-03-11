@@ -34,6 +34,13 @@ export default [
     },
 
 	{
+		path: '/statistics',
+		name: 'Thống kê & Báo cáo',
+		component: './statistics',
+		icon: 'AreaChartOutlined',
+		locale: false,
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
@@ -57,6 +64,34 @@ export default [
 		component: './TodoList',
 		icon: 'CheckSquareOutlined',
 	},
+	{
+		path: '/oan-tu-ti',
+		name: 'OanTuTi',
+		component: './OanTuTi',
+		icon: 'SmileOutlined',
+	},
+	{
+		path: '/ngan-hang-cau-hoi',
+		name: 'NganHangCauHoi',
+		component: './NganHangCauHoi',
+		icon: 'ReadOutlined',
+	},
+	{
+		path: '/quan-ly',
+		name: 'QuanLy',
+		component: './QuanLy',
+		icon: 'CalendarOutlined',
+	},
+
+	// ← Từ nhánh feature/quan-li-lich-hen
+	{
+		path: '/appointment',
+		name: 'Quản lý lịch hẹn',
+		component: './Appointment',
+		icon: 'CalendarOutlined',
+	},
+
+	// ← Từ nhánh B24DCCC182-TH3
 	{
 		path: '/oan-tu-ti',
 		name: 'OanTuTi',
