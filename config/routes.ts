@@ -24,6 +24,15 @@
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
+
+	{
+        path: '/statistics',
+        name: 'Thống kê & Báo cáo',
+        component: './statistics',
+        icon: 'AreaChartOutlined',
+        locale: false, 
+    },
+
 	{
 		path: '/gioi-thieu',
 		name: 'About',
@@ -105,6 +114,7 @@
 	},
 	{
 		path: '/',
+		redirect: '/dashboard',
 	},
 	{
 		path: '/403',
