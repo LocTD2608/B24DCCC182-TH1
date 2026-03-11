@@ -48,6 +48,13 @@
 		component: './TodoList',
 		icon: 'CheckSquareOutlined',
 	},
+	{ 
+    path: '/appointment', 
+    name: 'Quản lý lịch hẹn', 
+    component: './Appointment',
+	icon: 'calendar',
+	
+    },
 
 	// DANH MUC HE THONG
 	// {
@@ -81,6 +88,11 @@
 				exact: true,
 				component: './ThongBao/NotifOneSignal',
 			},
+			 { 
+                path: '/appointment', 
+                name: 'Quản lý lịch hẹn', 
+                component: './Appointment' 
+           },
 		],
 		layout: false,
 		hideInMenu: true,
