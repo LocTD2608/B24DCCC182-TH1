@@ -48,6 +48,12 @@
 		component: './TodoList',
 		icon: 'CheckSquareOutlined',
 	},
+	{
+        path: '/tra-cuu-van-bang',
+        name: 'Tra cứu Văn bằng',
+        icon: 'search', // Bạn có thể đổi icon tùy thích
+        component: './TraCuu',
+    },
 
 	// DANH MUC HE THONG
 	// {
