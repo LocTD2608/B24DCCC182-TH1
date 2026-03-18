@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -69,6 +69,18 @@
 	// 	],
 	// },
 
+	{
+		path: '/van-bang',
+		name: 'Văn bằng',
+		icon: 'SolutionOutlined',
+		routes: [
+			{
+				path: '/van-bang/bieu-mau',
+				name: 'Cấu hình biểu mẫu',
+				component: './VanBang/BieuMau',
+			},
+		]
+	},
 	{
 		path: '/notification',
 		routes: [
