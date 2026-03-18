@@ -1,29 +1,15 @@
 export default [
 	{
-		path: '/user',
-		layout: false,
-		routes: [
-			{
-				path: '/user/login',
-				layout: false,
-				name: 'login',
-				component: './user/Login',
-			},
-			{
-				path: '/user',
-				redirect: '/user/login',
-			},
-		],
+	  path: '/tra-cuu-van-bang',
+	  name: 'Tra cứu văn bằng',
+	  component: './tra-cuu-van-bang',
 	},
-
-	///////////////////////////////////
-	// DEFAULT MENU
 	{
-		path: '/dashboard',
-		name: 'Dashboard',
-		component: './TrangChu',
-		icon: 'HomeOutlined',
+	  path: '/tra-cuu-van-bang/:id',
+	  component: './tra-cuu-van-bang/Detail',
+	  hideInMenu: true,
 	},
+  ];
 
 	{
         path: '/statistics',
