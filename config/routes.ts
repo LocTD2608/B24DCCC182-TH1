@@ -58,6 +58,13 @@ export default [
 		icon: 'CheckSquareOutlined',
 	},
 	{
+ feature/thong_tin_van_bang
+        path: '/tra-cuu-van-bang',
+        name: 'Tra cứu Văn bằng',
+        icon: 'search', // Bạn có thể đổi icon tùy thích
+        component: './TraCuu',
+    },
+  {
 		path: '/oan-tu-ti',
 		name: 'OanTuTi',
 		component: './OanTuTi',
