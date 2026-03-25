@@ -9,6 +9,7 @@ export default {
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
 
+	'menu.QuanLyCLB': 'Quản lý CLB',
 	'menu.GuessNumber': 'Game Đoán Số',
 	'menu.TodoList': 'Danh Sách Công Việc',
 };

@@ -43,6 +43,12 @@
 		icon: 'TrophyOutlined',
 	},
 	{
+		path: '/quan-ly-clb',
+		name: 'QuanLyCLB',
+		component: './QuanLyCLB',
+		icon: 'TeamOutlined',
+	},
+	{
 		path: '/todo-list',
 		name: 'TodoList',
 		component: './TodoList',
