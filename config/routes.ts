@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -37,6 +37,7 @@
 		icon: 'ArrowsAltOutlined',
 	},
 	{
+<<<<<<< HEAD
 		path: '/guess-number',
 		name: 'GuessNumber',
 		component: './GuessNumber',
@@ -47,6 +48,12 @@
 		name: 'TodoList',
 		component: './TodoList',
 		icon: 'CheckSquareOutlined',
+=======
+		path: '/bao-cao',
+		name: 'Báo cáo thống kê',
+		component: './BaoCao',
+		icon: 'BarChartOutlined',
+>>>>>>> main
 	},
 
 	// DANH MUC HE THONG
