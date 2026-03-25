@@ -59,3 +59,13 @@ declare const APP_CONFIG_TITLE_CORE: string;
 declare const APP_CONFIG_TITLE_CSVC: string;
 declare const APP_CONFIG_TITLE_THU_VIEN: string;
 declare const APP_CONFIG_TITLE_QLVB: string;
+
+declare namespace BieuMau {
+  export interface IRecord {
+    _id?: string;
+    tenTruong: string;
+    kieuDuLieu: 'String' | 'Number' | 'Date';
+    isRequired?: boolean;
+    moTa?: string;
+  }
+}

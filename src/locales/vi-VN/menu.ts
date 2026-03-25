@@ -12,4 +12,6 @@ export default {
 	'menu.QuanLyCLB': 'Quản lý CLB',
 	'menu.GuessNumber': 'Game Đoán Số',
 	'menu.TodoList': 'Danh Sách Công Việc',
+	'menu.OanTuTi': 'Game Oẳn Tù Tì',
+	'menu.NganHangCauHoi': 'Ngân Hàng Câu Hỏi',
 };
