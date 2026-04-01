@@ -1,0 +1,72 @@
+.admin-thong-ke-page {
+    padding: 20px;
+    min-height: 100vh;
+    background: #f0f2f5;
+}
+
+.kpi-card {
+    border-radius: 16px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+    border: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14) !important;
+}
+
+.kpi-blue {
+    background: linear-gradient(135deg, #e6f4ff, #bae0ff) !important;
+}
+
+.kpi-green {
+    background: linear-gradient(135deg, #f6ffed, #d9f7be) !important;
+}
+
+.kpi-orange {
+    background: linear-gradient(135deg, #fff7e6, #ffe7ba) !important;
+}
+
+.kpi-purple {
+    background: linear-gradient(135deg, #f9f0ff, #efdbff) !important;
+}
+
+.chart-card {
+    border-radius: 16px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07) !important;
+}
+
+.chart-card .ant-card-head {
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 600;
+}
+
+.rank-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 14px;
+    padding: 16px 12px;
+    text-align: center;
+    transition: all 0.2s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.rank-item:hover {
+    background: #e6f4ff;
+    border-color: #91caff;
+    transform: scale(1.03);
+}
+
+.rank-badge {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .admin-thong-ke-page {
+        padding: 12px;
+    }
+}

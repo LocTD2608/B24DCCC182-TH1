@@ -63,6 +63,45 @@
 	// 	],
 	// },
 
+	// DU LICH
+	{
+		name: 'Du Lịch',
+		path: '/du-lich',
+		icon: 'GlobalOutlined',
+		routes: [
+			{
+				name: 'Khám phá',
+				path: '/du-lich/trang-chu',
+				component: './DuLich/TrangChu',
+				icon: 'CompassOutlined',
+			},
+			{
+				name: 'Lịch trình',
+				path: '/du-lich/lich-trinh',
+				component: './DuLich/LichTrinh',
+				icon: 'CalendarOutlined',
+			},
+			{
+				name: 'Ngân sách',
+				path: '/du-lich/ngan-sach',
+				component: './DuLich/NganSach',
+				icon: 'DollarOutlined',
+			},
+			{
+				name: 'Quản lý điểm đến',
+				path: '/du-lich/admin/diem-den',
+				component: './DuLich/Admin/DiemDen',
+				icon: 'EnvironmentOutlined',
+			},
+			{
+				name: 'Thống kê',
+				path: '/du-lich/admin/thong-ke',
+				component: './DuLich/Admin/ThongKe',
+				icon: 'BarChartOutlined',
+			},
+		],
+	},
+
 	{
 		path: '/notification',
 		routes: [
