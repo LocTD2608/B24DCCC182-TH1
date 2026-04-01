@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -47,6 +47,12 @@
 		name: 'TodoList',
 		component: './TodoList',
 		icon: 'CheckSquareOutlined',
+	},
+	{
+		path: '/quan-ly-ngan-sach',
+		name: 'Quản lý ngân sách',
+		component: './QuanLyNganSach',
+		icon: 'DollarCircleOutlined',
 	},
 
 	// DANH MUC HE THONG
