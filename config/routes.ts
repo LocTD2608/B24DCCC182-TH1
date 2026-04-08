@@ -24,6 +24,15 @@ export default [
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
+
+	{
+        path: '/statistics',
+        name: 'Thống kê & Báo cáo',
+        component: './statistics',
+        icon: 'AreaChartOutlined',
+        locale: false, 
+    },
+
 	{
 		path: '/gioi-thieu',
 		name: 'About',
@@ -79,6 +88,18 @@ export default [
 	},
 
 	{
+		path: '/van-bang',
+		name: 'Văn bằng',
+		icon: 'SolutionOutlined',
+		routes: [
+			{
+				path: '/van-bang/bieu-mau',
+				name: 'Cấu hình biểu mẫu',
+				component: './VanBang/BieuMau',
+			},
+		]
+	},
+	{
 		path: '/notification',
 		routes: [
 			{
@@ -102,6 +123,7 @@ export default [
 	},
 	{
 		path: '/',
+		redirect: '/dashboard',
 	},
 	{
 		path: '/403',
@@ -112,6 +134,31 @@ export default [
 		path: '/hold-on',
 		component: './exception/DangCapNhat',
 		layout: false,
+	},
+	{
+		path: '/quyet-dinh',
+		name: 'Quyết định tốt nghiệp',
+		icon: 'file-done',
+		component: './QuyetDinhTotNghiep', 
+	},
+	{
+		path: '/registration',
+		name: 'Quản lý đơn đăng ký', // Tên hiển thị trên menu
+		icon: 'FormOutlined',        // Icon từ Antd
+		component: './Registration', // Đường dẫn tới folder src/pages/Registration
+	},
+	{
+		path: '/members',
+		name: 'Quản lý thành viên',
+		icon: 'TeamOutlined',
+		component: './Members',      // Cho Module 3
+	},
+
+	{
+		path: '/my-tasks',
+		name: 'Công việc của tôi',
+		icon: 'CheckSquareOutlined',
+		component: './MyTasks',
 	},
 	{
 		component: './exception/404',
