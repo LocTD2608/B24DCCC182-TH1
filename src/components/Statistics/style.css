@@ -1,0 +1,19 @@
+.stats-box {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .progress {
+    height: 10px;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: #1890ff;
+    border-radius: 5px;
+  }
