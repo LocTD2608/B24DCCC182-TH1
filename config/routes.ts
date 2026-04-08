@@ -43,17 +43,18 @@
 		icon: 'TrophyOutlined',
 	},
 	{
-		path: '/todo-list',
-		name: 'TodoList',
-		component: './TodoList',
-		icon: 'CheckSquareOutlined',
-	},
+      path: '/danh-sach-cong-viec', // <--- 1. Sửa dòng này để đổi URL trên trình duyệt
+      name: 'Danh sách công việc',  // <--- 2. Sửa chữ này để đổi tên menu ở thanh Sidebar bên trái
+      component: './TodoList',      // <--- 3. GIỮ NGUYÊN dòng này (chỉ đường dẫn vào thư mục chứa code)
+      icon: 'CheckSquareOutlined',
+    },
     {
         path: '/destinations',
         name: 'Khám phá điểm đến',
         icon: 'compass', 
         component: './Destinations',
     },
+	
 
 	// DANH MUC HE THONG
 	// {
