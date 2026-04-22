@@ -36,17 +36,12 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+
 	{
-		path: '/guess-number',
-		name: 'GuessNumber',
-		component: './GuessNumber',
-		icon: 'TrophyOutlined',
-	},
-	{
-		path: '/todo-list',
-		name: 'TodoList',
-		component: './TodoList',
-		icon: 'CheckSquareOutlined',
+		path: '/quan-ly-nhan-vien',
+		name: 'Quản lý Nhân viên',
+		component: './QuanLyNhanVien',
+		icon: 'UserOutlined',
 	},
 
 	// DANH MUC HE THONG
